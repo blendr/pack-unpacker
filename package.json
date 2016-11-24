@@ -1,0 +1,13 @@
+{
+  "name": "pack-unpacker",
+  "version": "0.1.0",
+  "description": "pack-unpacker",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js --standalone PackUnpacker | uglifyjs --compress --mangle -o pack-unpacker.min.js --preamble '// https://github.com/blendr/pack-unpacker' > pack-unpacker.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nicolas Bouvet <bouvet.nicolas@gmail.com> (http://www.nico-boo.com)",
+  "license": "MIT"
+}
