@@ -1,7 +1,7 @@
 {
-  "name": "pack-unpacker",
+  "name": "blendr-pack-unpacker",
   "version": "0.1.0",
-  "description": "pack-unpacker",
+  "description": "blendr-pack-unpacker",
   "main": "index.js",
   "scripts": {
     "build": "browserify index.js --standalone PackUnpacker | uglifyjs --compress --mangle -o pack-unpacker.min.js --preamble '// https://github.com/blendr/pack-unpacker' > pack-unpacker.min.js",
